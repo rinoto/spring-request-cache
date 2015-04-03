@@ -6,8 +6,8 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
-@CacheConfig(cacheManager = "requestScopedCacheManager", cacheNames = "cachedService")
-public class CachedService {
+@CacheConfig(cacheManager = "requestScopedCacheManager", cacheNames = "secondCachedService")
+public class SecondCachedService {
 
 	private String string;
 
