@@ -1,4 +1,4 @@
-package sbg.rinoto.spring.cache;
+package sbg.rinoto.spring.cache.config;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;

@@ -32,4 +32,12 @@ The cacheManager can also be specified in the <code>@Cacheable</code> annotation
 ### Cleaning up the cache
 IMPORTANT: This cachedManager needs to be cleared before each request by using <code>requestScopedCacheManager.clearCaches()</code> (see an example in the tests).
 It is also advisable to clear the cache also after the request has completed, in order to free up the cache.
+
+
+
+ab -c 5 -n 10 -H "X-RINOTO-CACHE-TYPE:hola2" localhost:8080/
+
+mvn spring-boot:run
+
+
  

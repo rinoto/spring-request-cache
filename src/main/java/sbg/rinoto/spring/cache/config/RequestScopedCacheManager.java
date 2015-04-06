@@ -1,4 +1,4 @@
-package sbg.rinoto.spring.cache;
+package sbg.rinoto.spring.cache.config;
 
 import java.util.Collection;
 import java.util.Map;

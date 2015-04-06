@@ -15,6 +15,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import sbg.rinoto.spring.cache.config.CacheConfig;
+import sbg.rinoto.spring.cache.config.RequestScopedCacheManager;
 import sbg.rinoto.spring.cache.services.CachedService;
 import sbg.rinoto.spring.cache.services.SecondCachedService;
 
